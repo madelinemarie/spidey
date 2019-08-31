@@ -73,6 +73,71 @@ p.caption{
     margin-top: 0;
 }
 
-img.spidergang{
-    
+
+ul{
+    list-style: none;
 }
+
+ul.flat li {
+    margin: 0 5px;
+    padding: 0;
+    display: inline-block;
+}
+
+ul.flat li img {
+    margin: 0 5px;
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+  /* This is Gallery CSS TEST AREA */
+
+  div.gallery {
+    margin: 5px;
+    border: 0;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 0;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 10px;
+    text-align: center;
+    background-color: #E93CAC;
+  }
+
+  div.desc:hover {
+    opacity: .5;
+    background-color: transparent;
+  }
+
+  /* Gallery Side by Side */
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clearfix (clear floats) */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
